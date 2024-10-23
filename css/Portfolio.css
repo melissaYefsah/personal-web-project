@@ -1,0 +1,119 @@
+body{
+    padding: auto;
+    background-image: url("/images/background1.jpg.avif");
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.potfolio {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: raw;
+    justify-content:flex-end;
+    margin-bottom: 100px; 
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F55ADB;
+    margin: 0px 50px 0px 50px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+}
+.project-bar{
+    background-color: rgb(194, 135, 145);
+    width: auto;
+    height: 50px;
+    text-align: center;
+}
+.project-content img{
+    width: 250px;
+}
+.items {
+    width: 800px;
+    border: 1px solid #F55ADB;
+    padding: 48px;
+  
+}
+.project-content{
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-around;
+
+}
+.project-content p{
+    font-size: 15px;
+}
+
+.social-media-icon {
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.social-media-icon a{
+    margin-right: 10px;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 600px;
+    margin-left: 0px;
+    padding-top: 60px;
+}
+.message input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+}
+.message button{
+    width: 300px;
+    height: 40px;
+    background-color: #F55ADB;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tel p{
+    color: aliceblue;
+    margin-top: 150px;
+    margin-right: 40px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.social-media-icon img{
+    border-radius: 15px;
+    width: 30px;
+}
+
+
+
+
+

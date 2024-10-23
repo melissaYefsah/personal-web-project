@@ -2,7 +2,7 @@ body{
     padding: auto;
     background-image: url("/images/background1.jpg.avif");
     background-repeat: no-repeat;
-    background-size: 500%;
+    background-size: 200%;
 }
 .menu{
     display: flex;
