@@ -50,10 +50,15 @@ body{
     display: flex;
     flex-direction: raw;
     justify-content: space-around;
+    text-align: center;
 
 }
 .project-content p{
     font-size: 15px;
+}
+.project-content a{
+    text-decoration:none ;
+    color: #F55ADB;
 }
 
 .social-media-icon {
